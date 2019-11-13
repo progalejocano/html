@@ -1,55 +1,99 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title>Actividad</title>
-    <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="estilo.css">
+    <title>WebSln: Soluciones_Web</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <!--Main CSS-->
+    <link rel="stylesheet" href="style.css">
+
+    <!--GoogleFont-->
+      <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
   </head>
   <body>
+    <header>
+      <div class="container">
+        <img src="" alt="">
+      </div>
 
-    <div id=barraNavegacion>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Prog. AlejoCano</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+      <div class="menu-bar">
+        <nav class="container" role="menu">
+          <ul class="menu-list list-inline">
 
-        <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Inico <span class="sr-only">(current)</span></a>
+            <li class="list-inline-item">
+              <a href="index.html">Inico</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Tablas</a>
+
+            <li class="list-inline-item">
+              <a href=".html">Tablas</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Video</a>
+
+            <li class="list-inline-item">
+              <a href=".html">video</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Formulario</a>
+
+            <li class="list-inline-item">
+              <a href="formulario.html">Formulario</a>
             </li>
+
           </ul>
-          <form class="form-inline my-2 my-lg-0">
-            <input class="form-control mr-sm-2" type="text" placeholder="Buscar">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Buscar</button>
-          </form>
+        </nav>
+
+      </div>
+    </header>
+
+    <div class="row">
+      <div class="col-2">
+        <div class="list-group" id="list-tab" role="tablist">
+          <a class="list-group-item list-group-item-action active" id="list-Inicio-list" data-toggle="list" href="index.html" role="tab" aria-controls="Inicio">Inicio</a>
+          <a class="list-group-item list-group-item-action" id="list-Tablas-list" data-toggle="list" href="#list-profile" role="tab" aria-controls="profile">Tablas</a>
+          <a class="list-group-item list-group-item-action" id="list-video-list" data-toggle="list" href="#list-video" role="tab" aria-controls="video">Video</a>
+          <a class="list-group-item list-group-item-action" id="list-formulario-list" data-toggle="list" href="#list-formulario" role="tab" aria-controls="formulario">Formulario</a>
         </div>
-      </nav>
-    </div>
+      </div>
+      <div class=" jumbotron col-9">
+          <h1 class="display-3">WebSln</h1>
+          <p>Esta es una pagina orientada a la demostracion de soluciones practicas y acordes para tus necesidades, en diseño y programacion web para tu empresa o negocio o para los mas intrepidos para uso personal.</p>
+          <p>Aqui enctontraras manuales y tutoriales de como realizar ejercicios practicos para la creacion de programas basados en lenguajes de programacion modernos y orientados para todo tipo de publico. Inicalmente se realiza esta pagina como proyecto de actividades a ejecutar en el proceso de aprendizaje en principos de programacion HTML con Bootstrap</p>
+        </div>
+      </div>
 
-    <div id=banner>
-        <img src="img/banner.png" alt="banner" class="center">
-    </div>
+      <footer>
+        <div class="container-footer-all">
 
-    <div id=contenedor>
-      <div id=BarraIzquierda>
+          <div class="container-body">
 
-    </div>
+            <div class="column1 col-6" >
+              <h4>Mas Informacion</h4>
+            </div>
 
-    <div id=contenido>
+            <div class="column2 col-3">
+              <h4>Redes Sociales</h4>
+              <div class="row2">
+                <img src="img/facebook_32px.png" alt="Facebook"><label>Sigueme en Facebook</label>
+              </div>
 
-    </div>
+              <div class="row2">
+                <img src="img/instagram_32px.png" alt="Instagram"><label>Sigueme en Instagram</label>
+              </div>
 
+              <div class="row2">
+                <img src="img/twitter_32px.png" alt="Twitter"><label>Sigueme en Twitter</label>
+              </div>
+
+            </div>
+
+            <div class="column3 col-5">
+              <h4>Informacion Contactos</h4>
+
+              <div class="row2">
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </footer>
   </body>
 </html>

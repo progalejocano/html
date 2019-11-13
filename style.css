@@ -1,0 +1,71 @@
+body{
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+header{
+  background: #19516B;
+  padding-top: 10px;
+}
+
+.menu-bar{
+  background: #33A2D6;
+  text-align: right;
+}
+
+.menu-list{
+  padding: 12px 0;
+  margin-bottom: 0;
+}
+
+.row{
+  padding: 10px;
+}
+
+.btn{
+  background: #A4A4A4;
+}
+
+.row2{
+margin-top: 10px;
+}
+
+footer{
+  width: 100%;
+  background: #202020;
+  color: white;
+}
+.container-footer-all{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.container-body{
+  display: flex;
+}
+
+.column1{
+  max-width: 400px;
+}
+
+.column1 h4{
+  font-size: 30px;
+}
+.column1 p{
+  font-size: 10px;
+  margin-top: 10px;
+}
+
+.column2{
+  max-width: 400px;
+}
+.column2 h4{
+  font-size: 30px;
+}
+
+.column3{
+  max-width: 600px;
+}
+.column3 h4{
+  font-size: 30px;
+}
