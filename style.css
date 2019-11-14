@@ -69,3 +69,49 @@ footer{
 .column3 h4{
   font-size: 30px;
 }
+
+.container-form{
+  margin-left: 30px;
+}
+
+fieldset h1{
+  text-align: center;
+}
+
+.form-group label{
+  margin-top: 10px;
+}
+
+.Enviar{
+  margin-bottom: 30px;
+}
+
+.Enviar button{
+  margin-right: 20px;
+  color: black;
+}
+
+.row-tabla{
+  padding: 10px;
+}
+.row-tabla h1{
+  text-align: center;
+}
+.row-tabla p{
+  margin-left: 150px;
+}
+
+.container-tabla{
+  margin-bottom: 10px;
+  margin-right: 150px;
+  margin-left: 150px;
+  text-align: center;
+}
+
+.row-video{
+  text-align: center;
+}
+
+.row-repro{
+  text-align: center;
+}

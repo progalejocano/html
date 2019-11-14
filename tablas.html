@@ -27,7 +27,7 @@
             </li>
 
             <li class="list-inline-item">
-              <a href=".html">Tablas</a>
+              <a href="tablas.html">Tablas</a>
             </li>
 
             <li class="list-inline-item">
@@ -43,45 +43,64 @@
 
       </div>
     </header>
-
-    <div class="container-form col-6">
-      <div class="row-form">
-        <form>
-          <fieldset>
-            <h1>Formulario</h1>
-            <div class="form-group">
-
-              <label for="ingresoNombre">Nombre</label>
-              <input type="Nombre" class="form-control" id="ingresoNombre" aria-describedby="ayudaNombre" placeholder="Nombre">
-
-              <label for="ingresoDireccion">Direccion</label>
-              <input type="Direccion" class="form-control" id="ingresoDireccion" aria-describedby="ayudaDireccion" placeholder="Direccion">
-
-              <label for="ingresoTelefono">Telefono</label>
-              <input type="Telefono" class="form-control" id="ingresoTelefono" aria-describedby="ayudaTelefono" placeholder="Telefono">
-
-              <label for="ingresoCorreo">Correo</label>
-              <input type="Correo" class="form-control" id="ingresoCorreo" aria-describedby="ayudaCorreo" placeholder="Correo">
-
-              <label for="ingresoCiudad">Ciudad</label>
-              <input type="Ciudad" class="form-control" id="ingresoCiudad" aria-describedby="ayudaCiudad" placeholder="Ciudad">
-
-              <label for="ingresoEdad">Edad</label>
-              <input type="Edad" class="form-control" id="ingresoEdad" aria-describedby="ayudaEdad" placeholder="Edad">
-
-            </div>
-
-            <div class="Enviar">
-              <button type="button" class="btn btn-primary">Enviar Formulario</button>
-              <button type="button" class="btn btn-primary">Cancelar Formulario</button>
-
-            </div>
-
-          </fieldset>
-        </form>
+      <div class="row-tabla">
+        <h1>Tabla informativa</h1>
+        <p>En esta tabla se muestra los lenguajes de programacion mejor calificados en el 2019</p>
       </div>
 
+
+    <div class="container-tabla">
+      <table class="table table-hover">
+        <thead>
+          <tr>
+            <th scope="col">Puesto</th>
+            <th scope="col">Lenguaje</th>
+            <th scope="col">Tipo</th>
+            <th scope="col">Calificacion</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr class="table-info">
+           <th scope="row">1</th>
+           <td>Pyton</td>
+           <td>-</td>
+           <td>100</td>
+          </tr>
+
+          <tr class="table-info">
+            <th scope="row">2</th>
+            <td>Java</td>
+            <td>-</td>
+            <td>96.3</td>
+          </tr>
+
+          <tr class="table-info">
+            <th scope="row">3</th>
+            <td>C</td>
+            <td>-</td>
+            <td>94.4</td>
+          </tr>
+
+          <tr class="table-info">
+            <th scope="row">4</th>
+            <td>C++</td>
+            <td>-</td>
+            <td>87.5</td>
+          </tr>
+
+          <tr class="table-info">
+            <th scope="row">5</th>
+            <td>R</td>
+            <td>-</td>
+            <td>81.5</td>
+          </tr>
+       </tbody>
+      </table>
     </div>
+
+
+
 
     <footer>
       <div class="container-footer-all">
@@ -118,5 +137,5 @@
 
       </div>
     </footer>
-</body>
-</html>
+  </body>
+  </html>
